@@ -1,0 +1,83 @@
+body {
+    color: #82a5ca;
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-image: url("./images/galaxy.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+#footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer h3 {
+    color: #82a5ca;
+    font-family: "Orbitron", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.spacex-logo {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: 700;
+    color: #00a8ff;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 40px 0 20px 0;
+    letter-spacing: 2px;
+    color: #82a5ca;
+    text-shadow: 0px 0px 4px black;
+}
+
+.btn {
+    text-align: center;
+    padding: 15px 30px;
+    background: white;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.button {
+    border-bottom: 4px solid white;
+}
+
